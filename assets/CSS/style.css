@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+body{
+    background-color: rgb(221, 218, 218);
+}
+
+.hero-header{
+    display: flex;
+    align-items:center;
+    text-align: center;
+    background-image: url("/assets/imgs/space.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 2em;
+    justify-content: space-evenly;
+    
+}
+.h-titulo{
+    text-align: left;
+    
+}
+.h1-titulo{
+    color: #ffff;
+    margin: 0;
+    margin-bottom: 0;
+    font-weight: 800;
+}
+
+.h2-titulo{
+    color: rgb(51, 53, 223);
+    font-weight: 500;
+}
+
+
+.products{
+    width: 80%;
+    margin: auto;
+    
+}
+
+.products td{
+    width: 50%;
+    padding: 2em;
+}
+
+.products img{
+    width: 80%;
+}  
+
+.img-products{
+    border-radius: 1em;
+}
+
+.title-products{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.subtitulo-products{
+    color: red;
+}
+
+.footer{
+    text-align: center;
+    color: white;
+    background-image: url("/assets/imgs/space.jpg");
+    background-size: cover;
+    padding: 1em;
+}
+
